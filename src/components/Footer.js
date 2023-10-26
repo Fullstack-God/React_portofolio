@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,16 +15,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by John O smith</h3>
+          <h3>Designed and Developed by Granit Hashani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} John </h3>
+          <h3>Copyright © {year} Granit Hashani </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://github.com/Granithashani1"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,17 +34,17 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://www.facebook.com/Qathume/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiOutlineFacebook />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://www.linkedin.com/in/granit-hashani-1985a8268/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +54,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Johnlegend"
+                href="https://www.linkedin.com/in/granit-hashani-1985a8268/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
