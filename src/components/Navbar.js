@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <div style={{color:"#6f42c1",fontWeight:"bold", fontSize:"35px"}}>John.</div>
+          <div style={{color:"#6f42c1",fontWeight:"bold", fontSize:"35px"}}>Granit </div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -82,13 +82,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav.Item>
 
             <Nav.Item>
@@ -101,26 +101,26 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/AIchatroom"
                 onClick={() => updateExpanded(false)}
               >
                 <CgDollar style={{ marginBottom: "2px" }} /> ChatGPT
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            {/* <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/Johnlegend/Portfolio"
                 target="_blank"
@@ -129,7 +129,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

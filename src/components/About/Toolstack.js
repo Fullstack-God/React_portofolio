@@ -8,7 +8,8 @@ import {
   SiMacos,
   SiWindows,
   SiAutodesk,
-  SiArcgis
+  SiArcgis,
+  SiVisualstudio
 } from "react-icons/si";
 
 function Toolstack() {
@@ -30,14 +31,9 @@ function Toolstack() {
         <SiStackoverflow/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiVisualstudio />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAutodesk />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiArcgis />
-      </Col>
+     
     </Row>
   );
 }
